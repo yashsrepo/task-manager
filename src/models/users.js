@@ -1,5 +1,6 @@
 const mongoose = require('mongoose')
 const validator = require('validator')
+console.log("yash")
 
 const User = mongoose.model('User', {
     name: {
